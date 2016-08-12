@@ -1,3 +1,13 @@
+JStravaWrapperRetrofit
+=======
+
+Not ready for download
+
+
+
+Based on JStrava from dustedrob.
+
+
 JStrava
 =======
 
