@@ -5,10 +5,10 @@ Not ready for download
 
 
 
-Based on JStrava from dustedrob.
 
 
-JStrava
+
+Based on JStrava from dustedrob. - JStrava
 =======
 
 Java Libraries for the Strava API
