@@ -2,6 +2,9 @@
 <manifest package="com.clem.jstravawrapper"
           xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
+
         <activity
-            android:name=".StravaActivity"
+            android:name=".sample.StravaActivity"
             android:label="@string/title_activity_strava"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
