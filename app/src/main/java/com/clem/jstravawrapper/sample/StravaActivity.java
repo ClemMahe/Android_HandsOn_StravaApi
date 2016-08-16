@@ -47,12 +47,11 @@ public class StravaActivity extends AppCompatActivity implements IStravaAuthentD
     /****
      * FILL THIS WITH YOUR INFORMATION
      *********/
-    private static final String API_KEY = "REPLACE_HERE";
-    private static final String SECRET_KEY = "REPLACE_HERE";
+    private static final String API_KEY = "12936";
+    private static final String SECRET_KEY = "e505b6af2f7085cb9bf24fb3abb4649eb2cec4ef";
 
     //This is any string we want to use. This will be used for avoid CSRF attacks. You can generate one here: http://strongpasswordgenerator.com/
     private static final String KEY_CSRF = "E3ZYKC1T6H2yP4z";
-
     private static final String REDIRECT_URI = "http://localhost/redirecturi";
 
     @BindView(R.id.strava_auth)
