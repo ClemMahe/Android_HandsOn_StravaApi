@@ -1,5 +1,17 @@
 # JStravaWrapperRetrofit
-Java Libraries for the Strava API
+
+Exemple of usage of Strava api with Rest.
+
+Based on POJOs from https://github.com/dustedrob/JStrava.
+How ever changed all requests using Retrofit.
+
+For now you can get : 
+- Athlete
+- Upload an activity 
+
+Don't hesitate to complete with others methods.
+
+Clement.
 
 --------------------------
 
@@ -7,12 +19,6 @@ Java Libraries for the Strava API
 
 Added a webView using OAuth2 to log on and a listener for the callback.
 It is also using JStrava objects from https://github.com/dustedrob/JStrava but using retrofit.
-
-For now you can get : 
-- Athlete
-- Upload an activity 
-
-Don't hesitate to complete with others methods.
 
 ### Usage
 
