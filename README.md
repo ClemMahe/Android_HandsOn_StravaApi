@@ -34,13 +34,13 @@ stravaAuthent.show();
 
 #### 2. After getting token, create retrofit client
 
-```
+```java
 JStravaV3Retrofit stravaRetrofit = new JStravaV3Retrofit(accessToken);
 ```
 
 #### 3. Get athlete
 
-```
+```java
  //Get athlete
 stravaRetrofit.getService().getCurrentAthlete().enqueue(new Callback<Athlete>() {
     @Override
@@ -60,7 +60,7 @@ stravaRetrofit.getService().getCurrentAthlete().enqueue(new Callback<Athlete>() 
 
 #### 3. Upload activity with compatible GPX (very important)
 
-```
+```java
 File file = createFileFromInputStream(inputStream,"itineraire1.gpx");
 RequestBody fileRequest = RequestBody.create(MediaType.parse("multipart/form-data"), file);
 MultipartBody.Part body = MultipartBody.Part.createFormData("file", file.getName(), fileRequest);
